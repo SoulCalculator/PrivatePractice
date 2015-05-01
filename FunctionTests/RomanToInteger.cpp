@@ -7,9 +7,11 @@ int RomanToInt( string );
 
 int main (int argc, char* argv[])
 {
-	string test = "DCXXI";
-	int result = RomanToInt(test);
-	cout << result << endl;
+	string str_input;
+	cout << "Please enter a Roman Number: ";
+	cin >> str_input;
+	int result = RomanToInt(str_input);
+	cout << "The Result is " << result << endl;
 	return 0;
 }
 
